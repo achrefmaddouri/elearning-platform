@@ -1,0 +1,32 @@
+{
+  "generation_date": "2025-09-12T17:39:23.739685",
+  "datasets": {
+    "users": 2150,
+    "courses": 800,
+    "enrollments": 11937,
+    "progress": 11937,
+    "quiz_attempts": 25000,
+    "ml_dataset": 11937
+  },
+  "data_ranges": {
+    "date_range": "2023-01-01 to 2024-12-31",
+    "user_roles": {
+      "USER": 1833,
+      "INSTRUCTOR": 300,
+      "ADMIN": 17
+    },
+    "course_categories": {
+      "10": 91,
+      "6": 91,
+      "4": 87,
+      "7": 84,
+      "9": 83,
+      "1": 77,
+      "8": 74,
+      "5": 74,
+      "3": 72,
+      "2": 67
+    },
+    "completion_rate": "41.1%"
+  }
+}

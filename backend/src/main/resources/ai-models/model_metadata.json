@@ -1,0 +1,45 @@
+{
+  "creation_date": "2025-09-12T17:38:06.332319",
+  "models": {
+    "deep_learning": {
+      "type": "Neural Network",
+      "architecture": "Dense layers with dropout",
+      "input_features": 27,
+      "parameters": 51969
+    },
+    "svd": {
+      "type": "Collaborative Filtering",
+      "algorithm": "SVD",
+      "factors": 50
+    },
+    "svd++": {
+      "type": "Collaborative Filtering",
+      "algorithm": "SVD++",
+      "factors": 20
+    },
+    "nmf": {
+      "type": "Collaborative Filtering",
+      "algorithm": "NMF",
+      "factors": 50
+    },
+    "als": {
+      "type": "Matrix Factorization",
+      "algorithm": "Alternating Least Squares",
+      "factors": 50
+    },
+    "content_based": {
+      "type": "Content-based Filtering",
+      "features": "course_category, difficulty, duration, price, rating"
+    }
+  },
+  "dataset_info": {
+    "users": 1000,
+    "courses": 200,
+    "interactions": 5000,
+    "sparsity": "97.5%"
+  },
+  "best_models": {
+    "best_rmse": "SVD",
+    "best_mae": "SVD"
+  }
+}

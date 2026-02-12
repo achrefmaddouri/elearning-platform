@@ -1,0 +1,451 @@
+# ============================================================================
+# EduSmart - AI Powered E-learning Platform
+# Production-Level .gitignore
+# ============================================================================
+
+# ============================================================================
+# EXCLUDED DIRECTORIES (Sensitive & Build Artifacts)
+# ============================================================================
+node_modules/
+target/
+build/
+dist/
+.env
+.env.local
+.env.*.local
+.idea/
+.vscode/
+logs/
+uploads/
+secrets/
+
+# ============================================================================
+# JAVA / SPRING BOOT
+# ============================================================================
+# Compiled class files
+*.class
+
+# Log files
+*.log
+*.log.*
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Spring Boot
+spring-boot-devtools.properties
+*.pid
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.m2/repository/
+
+# Gradle
+.gradle/
+build/
+gradle-app.setting
+gradlew
+gradlew.bat
+gradle/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# Intellij
+*.iml
+*.iws
+*.ipr
+.idea/
+out/
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Netbeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# ============================================================================
+# NODE.JS / REACT / TYPESCRIPT
+# ============================================================================
+node_modules/
+npm-debug.log
+npm-debug.log.*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Dependencies
+dist/
+dist-ssr/
+*.local
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build
+build/
+.next/
+out/
+
+# Runtime data
+pids/
+*.seed
+*.pid.lock
+
+# ============================================================================
+# PYTHON / AI MODELS
+# ============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Virtual environments
+.virtualenv/
+pipenv/
+
+# PEP 582
+__pypackages__/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ML Model files (Large)
+*.pkl
+*.h5
+*.model
+*.joblib
+*.pt
+models/saved/
+*.zip
+
+# Data files (CSV, etc - if large)
+data/raw/
+data/processed/
+
+# ============================================================================
+# FLUTTER
+# ============================================================================
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be committed to version control.
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS/macOS
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/*.xcconfig
+**/ios/**/*.xcworkspace
+**/ios/**/Flutter/Flutter.framework
+**/ios/**/Flutter/Flutter.podspec
+**/ios/**/Flutter/Generated.xcconfig
+**/ios/**/Flutter/Flutter.build
+**/ios/**/Flutter/ephemeralflutter_assets/
+**/ios/**/Flutter/app.flx
+**/ios/**/Flutter/app.zip
+**/ios/**/Flutter/flutter_assets/
+**/ios/**/Flutter/flutter_export_environment.sh
+**/ios/**/ServiceDefinitions.json
+**/ios/**/Runner/GeneratedPluginRegistrant.*
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# ============================================================================
+# DOCKER
+# ============================================================================
+.dockerignore
+docker-compose.override.yml
+
+# ============================================================================
+# OPERATING SYSTEMS
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ============================================================================
+# IDE-SPECIFIC
+# ============================================================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Atom
+.atom/
+
+# VS
+.vs/
+
+# ============================================================================
+# BUILD & COMPILATION
+# ============================================================================
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# ============================================================================
+# TEMPORARY & CACHE FILES
+# ============================================================================
+*.tmp
+*.bak
+*.swp
+*~
+.DS_Store
+Thumbs.db
+*.cache
+.cache/
+
+# ============================================================================
+# SENSITIVE & CREDENTIALS
+# ============================================================================
+.env
+.env.local
+.env.*.local
+secrets/
+credentials.json
+config/secrets.yml
+.aws/
+.git/credentials
+application.properties
+application-dev.properties
+application-prod.properties
+application-test.properties
+powerbi-reports-config.json
+
+# ============================================================================
+# DATABASE
+# ============================================================================
+*.db
+*.sqlite
+*.sqlite3
+dump.rdb
+
+# ============================================================================
+# LOGS
+# ============================================================================
+logs/
+*.log
+*.log.*
+
+# ============================================================================
+# UPLOADS & MEDIA
+# ============================================================================
+uploads/
+media/
+*.mp4
+*.avi
+*.mov
+
+# ============================================================================
+# GENERATED FILES
+# ============================================================================
+.gradle/
+gradle-app.setting
+gradlew
+gradlew.bat
+.generated/
+**/generated/
+
+# ============================================================================
+# OS-SPECIFIC
+# ============================================================================
+.venv/
+venv/
+ENV/
