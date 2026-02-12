@@ -563,9 +563,9 @@ This project is licensed under the **MIT License** - see [LICENSE](LICENSE) file
 
 Open to **CDI opportunities in France** 🇫🇷
 
-- **GitHub**: [@yourusername](https://github.com/yourusername)
-- **LinkedIn**: [Achref Maddouri](https://linkedin.com/in/achref-maddouri)
-- **Email**: achref@example.com
+- **GitHub**: [[@yourusername](https://github.com/yourusername)](https://github.com/achrefmaddouri)
+- **LinkedIn**: [[Achref Maddouri](https://linkedin.com/in/achref-maddouri)](https://www.linkedin.com/in/achref-maddouri-a1381821a/)
+- **Email**: achref.maddouri@esprit.tn
 
 ---
 
